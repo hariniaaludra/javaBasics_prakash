@@ -1,4 +1,4 @@
-package com.java.basic;
+package multipletable;
 
 public class multiplicationrun {
 
