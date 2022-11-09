@@ -2,8 +2,9 @@ package breakandcontinue;
 
 import java.util.Scanner;
 
-public class break1 {
+public class Break1 {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner g=new Scanner(System.in);
 		int n=g.nextInt();
 				

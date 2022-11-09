@@ -29,20 +29,21 @@ public class Question2 {
             System.out.println("god:"+digitList);
             int len = digitList.size();
             System.out.println("size :"+len);
-                     boolean evenDigitFound = false;
-            for (int i = len - 1; i >= 0; i--) {
+                     boolean evenDigitFound =false;
+            for (int i = len - 1; i >= 0;) {
                 int digit = digitList.get(i);
                 System.out.println("k:"+digit);
                 
-                if (digit % 2 == 0) {
-                	//System.out.println("pup:"+i);
+               if (digit % 2 == 0) {
+                	System.out.println("pup:"+i);
                     digitList.remove(i);
                     System.out.println("remo"+digitList);
-                    digitList.add(digit); //adding even digit at end
+                   
+                digitList.add(digit); //adding even digit at end
                     evenDigitFound = true;
                     break;
                 }
-            }
+        }
             if (evenDigitFound == false) {
                 System.out.print(-1);
             } else {
