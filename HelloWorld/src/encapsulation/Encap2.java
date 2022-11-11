@@ -1,11 +1,13 @@
 package encapsulation;
 
-public class encap2 {
+public class Encap2 {
 	public static void main(String[] args) {
-	encap1 a=new encap1();
+	Encap1 ver=new Encap1();
 	//encap1 h=new encap1();
 	//int c=a.encap11();
-	int c=a.encap1(10);
+	//int c=.encap1(10);
+	ver.setA(10);
+	int c=ver.getA();
 	System.out .println(c);
 
 }

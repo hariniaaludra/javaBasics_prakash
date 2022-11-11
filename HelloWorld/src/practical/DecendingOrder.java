@@ -6,13 +6,13 @@ import java.util.Scanner;
 
 public class DecendingOrder {    
     public  void loopOne() {
-    	Scanner Array=new Scanner(System.in);
+    	Scanner array=new Scanner(System.in);
     	System.out.print("enter the number:");
-         int [] arr = new int [Array.nextInt()] ;
+         int [] arr = new int [array.nextInt()] ;
         int temp = 0;      
         System.out.println("Elements of original array: ");    
         for (int i = 0; i < arr.length; i++) {     
-            arr[i]=Array.nextInt();   
+            arr[i]=array.nextInt();   
         }
         for (int i = 0; i < arr.length; i++) {     
             for (int j = i+1; j < arr.length; j++) {     
@@ -27,7 +27,7 @@ public class DecendingOrder {
         for (int i = 0; i < arr.length; i++) {     
             System.out.print(arr[i] + " ");    
         } 
-        Array.close();
+        array.close();
     }
    
     	public void array1() {  
