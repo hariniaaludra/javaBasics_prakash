@@ -1,11 +1,7 @@
-package inheritance;
-
-
-//import inheritance.SonA.B.C;
-
+package singleinheritance;
 public class Father {
 public static void main(String[] args) {
-   C s=new C();
+   new Data();
  
 	
 }
