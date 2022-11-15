@@ -2,16 +2,16 @@ package collectionpractice;
 import java.util.*;  
 public class ArrayList4{  
 	 public static void main(String[] args){  
-	    ArrayList<String> List=new ArrayList<String>();  
-	           List.add("Ravi");  
-	           List.add("Vijay");  
-	           List.add("Ravi");  
-	           List.add("Ajay");  
+	    ArrayList<String> list=new ArrayList<>();  
+	           list.add("Ravi");  
+	           list.add("Vijay");  
+	           list.add("Ravi");  
+	           list.add("Ajay");  
 	           
 	            
 	           System.out.println("Traversing list through List Iterator:");  
 	             
-	            ListIterator<String> list1= List.listIterator(List.size());  
+	            ListIterator<String> list1= list.listIterator(list.size());  
 	             while(list1.hasPrevious())  
 	              {  
 	                  System.out.println(list1.previous());  
@@ -20,14 +20,14 @@ public class ArrayList4{
 	              
 	              }  
 	        System.out.println("Traversing list through for loop:");  
-	           for(int i=0;i<List.size();i++)  
+	           for(int i=0;i<list.size();i++)  
 	           {  
-	            System.out.println(List.get(i));     
+	            System.out.println(list.get(i));     
 	           }  
 	              
 	        System.out.println("Traversing list through forEach() method:");  
 	    
-	            for(String c:List) {
+	            for(String c:list) {
 	            	System.out.println(c);
 	            }
 	                

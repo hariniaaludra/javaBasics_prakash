@@ -3,7 +3,7 @@ package MethodOverloading;
 public class Calculater
 {
 	public static void main(String[] args) {
-		calculate n=new calculate();
+		Calculate n=new Calculate();
 		int a=n.sum(10,25);
 		System.out.println(a);
 	}
