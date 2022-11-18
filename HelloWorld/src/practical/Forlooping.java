@@ -15,7 +15,7 @@ public class Forlooping {
 			{
 				System.out.print(" ");
 			}
-			int itr=i;
+	    	int itr=i;
 		for(int k=i;k>0;k--) {
 				System.out.print(itr+++" "); 
 			}
