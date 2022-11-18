@@ -6,4 +6,5 @@
  *
  */
 module HelloWorld {
+	requires java.base;
 }

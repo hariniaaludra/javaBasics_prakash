@@ -1,6 +1,6 @@
 package absraction;
 
-public abstract class Dogs extends Animals  {
+public class Dogs extends Animals  {
 
 	
 	void dogs() {
@@ -11,6 +11,12 @@ public abstract class Dogs extends Animals  {
 	
 
 	
+		
+	}
+
+	@Override
+	void cats() {
+		// TODO Auto-generated method stub
 		
 	}
 }
