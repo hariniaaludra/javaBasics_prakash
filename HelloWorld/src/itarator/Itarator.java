@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 class Itarator {
 	public static void main(String[] args) {
-		// ArrayList<String> l=new ArrayList<>();
+		
 		System.out.println("Enter the input");
 		ArrayList<Integer> l = new ArrayList<>();
 		Scanner c = new Scanner(System.in);
@@ -16,32 +16,31 @@ class Itarator {
 		for (int i = 0; i < d; i++) {
 			l.add(c.nextInt());
 		}
-		System.out.println("String the element:"+l);
-		Iterator<Integer> rt = l.iterator();
+		System.out.println("String the element:" + l);
+		Iterator<Integer> rt = l.iterator();//if it is listiterator we should be change to l.Size() into bracket
 		System.out.println("remove the element:");
 		Scanner b = new Scanner(System.in);
 		int e = b.nextInt();
 		while (rt.hasNext()) {
 			Integer j = rt.next();
+			
 			if (j.equals(e)) {
 				rt.remove();
-			       System.out.println(l);
-			} 
-	
-		}
-//              System.out.println("remove the element:"+l.remove(c.nextInt()));             
-//          System.out.println(it.next());
+		 
+		   
+			   
+		   }
+		
+				}
+			
+		System.out.println(l);
 		c.close();
 		b.close();
 	}
-	}
+}
 
 
 
-///
-//    
-//
-//
 
 //public class Itarator {
 //	public static void main(String[] args) {

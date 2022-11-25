@@ -7,4 +7,5 @@
  */
 module HelloWorld {
 	requires java.base;
+	requires java.desktop;
 }
