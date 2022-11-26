@@ -20,9 +20,5 @@ public class Rectangular {
 		this.length=length;
 		
 		}
-	 public int display() {
-		return breadth*length;
-		
-	}
-
+	
 }
